@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Politica de Privacidade - Visu Maps</title>
-<style>
-body{font-family:system-ui,sans-serif;max-width:700px;margin:0 auto;padding:20px;color:#333;line-height:1.6}
-h1{font-size:22px;color:#1a1a1a}
-h2{font-size:16px;color:#333;margin-top:24px}
-p{font-size:14px;margin:8px 0}
-ul{font-size:14px;padding-left:20px}
-.date{font-size:12px;color:#666}
-</style>
+
 </head>
 <body>
 <h1>Politica de Privacidade - Visu Maps</h1>
