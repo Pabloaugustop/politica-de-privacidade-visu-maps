@@ -1,4 +1,4 @@
-</head>
+
 <body>
 <h1>Politica de Privacidade - Visu Maps</h1>
 <p class="date">Ultima atualizacao: Junho 2026</p>
@@ -44,4 +44,4 @@
 <h2>8. Contato</h2>
 <p>Para duvidas sobre esta politica de privacidade, entre em contato pelo email: <strong>pabloaapp@gmail.com</strong></p>
 </body>
-</html>
+
