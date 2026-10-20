@@ -1,47 +1,45 @@
+Politica de Privacidade - VisuGeo Maps
+Ultima atualizacao: Outubro 2026
 
-<body>
-<h1>Politica de Privacidade - Visu Maps</h1>
-<p class="date">Ultima atualizacao: Junho 2026</p>
+Esta politica descreve como o aplicativo VisuGeo Maps trata os seus dados. De modo geral, o VisuGeo Maps funciona com os dados armazenados no seu proprio dispositivo. O login com Google e o backup na nuvem sao OPCIONAIS: o app funciona normalmente sem que voce faca login.
 
-<h2>1. Informacoes coletadas</h2>
-<p>O aplicativo Visu Maps coleta as seguintes informacoes apenas localmente no seu dispositivo:</p>
-<ul>
-<li><strong>Localizacao GPS:</strong> utilizada para exibir sua posicao no mapa e calcular distancias. Os dados de localizacao nao sao enviados a servidores externos.</li>
-<li><strong>Arquivos PDF selecionados:</strong> os mapas PDF que voce seleciona sao processados localmente no dispositivo para sobreposicao no mapa.</li>
-</ul>
+1. Informacoes coletadas
+O VisuGeo Maps trata as seguintes informacoes:
 
-<h2>2. Armazenamento de dados</h2>
-<p>Todos os dados sao armazenados exclusivamente no seu dispositivo:</p>
-<ul>
-<li>Imagens renderizadas dos mapas (IndexedDB do navegador interno)</li>
-<li>Preferencias do usuario (localStorage)</li>
-<li>Tiles de mapa offline (Cache API)</li>
-</ul>
-<p>Nenhum dado pessoal e transmitido, coletado ou armazenado em servidores remotos.</p>
+Localizacao GPS: utilizada para exibir sua posicao no mapa e calcular distancias. Os dados de localizacao nao sao enviados a servidores do desenvolvedor.
+Itens criados por voce: marcadores, areas, distancias, anotacoes e fotos que voce adiciona aos itens sao armazenados localmente no dispositivo.
+Arquivos PDF e KML/KMZ selecionados: processados localmente no dispositivo para exibicao e sobreposicao no mapa.
+Conta Google (apenas se voce fizer login): ao optar por entrar com o Google para usar o backup, o app recebe seu nome, endereco de e-mail e foto de perfil da conta Google, usados apenas para identificar a conta conectada e exibi-la na tela do app.
+2. Armazenamento de dados e backup
+Por padrao, todos os dados sao armazenados exclusivamente no seu dispositivo:
 
-<h2>3. Servicos de terceiros</h2>
-<p>O aplicativo utiliza tiles de mapa satelite fornecidos por:</p>
-<ul>
-<li><strong>Esri/ArcGIS:</strong> para imagens de satelite. Ao carregar tiles, seu dispositivo faz requisicoes aos servidores da Esri, que podem registrar enderecos IP conforme sua propria politica de privacidade.</li>
-</ul>
+Itens salvos e fotos (IndexedDB do navegador interno)
+Preferencias do usuario (localStorage)
+Tiles de mapa offline (Cache API)
+Backup opcional no Google Drive: se voce fizer login com o Google e usar o recurso de backup, seus itens e fotos sao empacotados e enviados para uma pasta privada do aplicativo no SEU proprio Google Drive (area "appDataFolder"). Esse backup fica na sua conta Google, sob o seu controle. O desenvolvedor do VisuGeo Maps NAO tem acesso a esses dados e NAO os armazena em nenhum servidor proprio. O app solicita apenas o escopo drive.appdata, que da acesso somente a essa pasta privada do app - nunca aos demais arquivos do seu Google Drive.
 
-<h2>4. Permissoes</h2>
-<ul>
-<li><strong>Localizacao (GPS):</strong> para exibir sua posicao no mapa</li>
-<li><strong>Acesso a arquivos:</strong> para ler os mapas PDF que voce seleciona manualmente</li>
-<li><strong>Internet:</strong> para carregar imagens de satelite</li>
-</ul>
+Voce pode, a qualquer momento, excluir o backup do seu Drive pelo proprio app ("Excluir meus dados") ou desconectar a conta ("Sair"). Excluir o backup nao apaga os itens do seu dispositivo.
 
-<h2>5. Compartilhamento de dados</h2>
-<p>Nao compartilhamos, vendemos ou transferimos nenhuma informacao pessoal a terceiros.</p>
+3. Servicos de terceiros
+Esri/ArcGIS: para imagens de satelite. Ao carregar tiles, seu dispositivo faz requisicoes aos servidores da Esri, que podem registrar enderecos IP conforme a propria politica de privacidade deles.
+Google (Sign-In e Drive): usados apenas se voce optar por fazer login. A autenticacao e o armazenamento do backup sao realizados pelos servicos do Google, conforme a Politica de Privacidade do Google. O app nao envia seus dados a nenhum outro servidor.
+4. Permissoes
+Localizacao (GPS): para exibir sua posicao no mapa e gravar trajetos
+Camera e acesso a fotos: para anexar imagens aos seus itens (quando voce escolhe)
+Acesso a arquivos: para ler os mapas PDF e arquivos KML/KMZ que voce seleciona
+Internet: para carregar imagens de satelite e, se voce fizer login, para o backup no seu Google Drive
+Conta Google (opcional): para autenticar e habilitar o backup no seu Drive
+5. Compartilhamento de dados
+O desenvolvedor nao compartilha, nao vende e nao transfere suas informacoes pessoais a terceiros. O backup e enviado exclusivamente para o seu proprio Google Drive, a seu pedido.
 
-<h2>6. Seguranca</h2>
-<p>Como todos os dados permanecem no seu dispositivo, a seguranca depende das protecoes do proprio sistema operacional Android.</p>
+6. Seguranca
+Os dados locais ficam protegidos pelas protecoes do proprio sistema operacional Android. O backup no Google Drive e protegido pela seguranca da sua conta Google. As credenciais de acesso (tokens) nao sao expostas nem registradas pelo app.
 
-<h2>7. Alteracoes nesta politica</h2>
-<p>Podemos atualizar esta politica periodicamente. Alteracoes serao publicadas nesta pagina.</p>
+7. Dados de criancas
+O VisuGeo Maps nao e direcionado a criancas e nao coleta intencionalmente dados de menores.
 
-<h2>8. Contato</h2>
-<p>Para duvidas sobre esta politica de privacidade, entre em contato pelo email: <strong>pabloaapp@gmail.com</strong></p>
-</body>
+8. Alteracoes nesta politica
+Podemos atualizar esta politica periodicamente. Alteracoes serao publicadas nesta pagina.
 
+9. Contato
+Para duvidas sobre esta politica de privacidade, entre em contato pelo email: pabloaapp@gmail.com
